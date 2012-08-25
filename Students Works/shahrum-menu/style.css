@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.clear{
+	clear:both;
+	width:0 !important;
+	height:0 !important;
+	min-height:0 !important;
+	min-width:0 !important;
+	overflow:hidden;
+	float: none !important;
+}
+.container{
+	margin: 0 auto;
+	background-image: url('../images/iPadBackgroundTexture-grey.png');
+	height: 100%;
+}
+
+nav{
+	width:950px;
+	position: relative;
+	margin:0 auto;
+
+}
+
+menu.social{
+	width: 950px;
+	list-style-type: none;
+	background-image: url('../images/NSTexturedFullScreenBackgroundColor.png');
+}
+
+menu.social li{
+	float: left;
+	margin-left:10px;
+}
+
+menu.social li a{
+	display: block;
+	text-decoration: none;
+	padding:20px 17px;
+	color:white;
+	background-color: gray;
+	position: relative;
+	top:-40px;
+}
+
+
+
+
+
+
+
+
